@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Bank Account</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <form id="createAccount">
+                    <h2>Register new Account</h2>
+                    <div class="form-group">
+                        <label for="full-name">Full name</label>
+                        <input type="text" class="form-control" id="new-first-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="initialDeposit">Initial Deposit</label>
+                        <input type="number" class="form-control" id="new-last-name">
+                    </div>
+
+                    <button type="submit"class="btn">Create Account</button>
+                </form>
+
+                <h4>Current Balance:</h4>
+                <ul id="initialDeposit">
+
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h2>Deposit or Withdraw funds</h2>
+                <div class="form-group">
+                    <label for="new-first-name">Deposit Amount</label>
+                    <input type="text" class="form-control" id="new-first-name">
+                </div>
+                <div class="form-group">
+                    <label for="new-first-name">Withdraw Amount</label>
+                    <input type="text" class="form-control" id="new-first-name">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
